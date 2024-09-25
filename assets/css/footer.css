@@ -55,3 +55,8 @@ footer .rodape {
   font-weight: 500;
   color: white;
 }
+
+.hrFooter {
+  border: none;
+  border-bottom: solid 2px #9c7658;
+}
