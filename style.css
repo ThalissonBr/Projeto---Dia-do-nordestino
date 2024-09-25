@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik";
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #000000;
+}
+
+/*Estilizando o MENU*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: #FFC96F;
+    padding:0px 30px;
+}
+
+.listInicio ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    list-style: none;
+    margin-left: 16.1rem;
+}
+
+.logoInicio img {
+    width: 120px;
+}
+
+.listInicio li a {
+    text-decoration: none;
+    color: #A67B5B;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.4s;
+    text-decoration: none;
+}
+
+.listInicio li a:hover {
+    color: white;
+    background-color: #a06732;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.pesquisar {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.pesquisar input {
+    padding: 10px 20px;
+    background: #e6b767;
+    border-radius: 8px;
+    border: 0.5px solid #9b7550;
+    width: 18.5rem;
+    color: #9b7550;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    transition: all 0.4s;
+}
+
+.pesquisar input::placeholder{
+    color: #967452;
+}
+
+.pesquisar input:hover{
+    border: 0.5px solid #88674e;
+}
+
+.pesquisar input:focus {
+    padding: 12px;
+    background: #e7c68b;
+    outline: none;
+}
+
+.icon ion-icon{
+    color: #88674e;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.icon ion-icon:hover {
+    color: white;
+    background-color: #a06732;
+    border-radius: 10px;
+    padding: 7px;
+}
