@@ -22,7 +22,7 @@ header {
     align-items: center;
     justify-content: space-between;
     max-width: 100%;
-    background-color: #FFC96F;
+    background-color: #A67B5B;
     padding: 0px 24px;
 }
 
@@ -41,7 +41,7 @@ header {
 
 .listInicio li a {
     text-decoration: none;
-    color: #A67B5B;
+    color: #ffffff;
     font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
@@ -53,6 +53,7 @@ header {
     background-color: #a06732;
     border-radius: 10px;
     padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .pesquisar {
@@ -86,10 +87,11 @@ header {
     padding: 12px;
     background: #f3e5cc;
     outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .icon ion-icon {
-    color: #88674e;
+    color: #ffffff;
     font-size: 1.3rem;
     cursor: pointer;
     transition: all 0.4s;
