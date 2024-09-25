@@ -1,58 +1,57 @@
-
 /*Estilizando FOOTER*/
 
-footer .rodape{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: #FFC96F;
-    padding: 20px;
+footer .rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffc96f;
+  padding: 20px;
 }
-.iconesFooter a{
-   padding: 20px;
+.iconesFooter a {
+  padding: 20px;
 }
-.iconesFooter ion-icon{
-    color: white;
-    border-radius: 20px;
-    background:#A67B5B;
-    padding: 8px;
-    font-size: 2rem;
-    transition: all 0.4s;
-}
-
-.iconesFooter ion-icon:hover{
-    color: rgb(255, 255, 255);
-    opacity: 1;
-    transform: translateY(-20px);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    transition: all 0.4s;
+.iconesFooter ion-icon {
+  color: white;
+  border-radius: 20px;
+  background: #a67b5b;
+  padding: 8px;
+  font-size: 2rem;
+  transition: all 0.4s;
 }
 
-.linksFooter ul{
-    display: flex;
-    justify-content:center; 
-    align-items: center; 
-    gap: 3rem; 
-    list-style: none;
-    padding-top: 20px;
+.iconesFooter ion-icon:hover {
+  color: rgb(255, 255, 255);
+  opacity: 1;
+  transform: translateY(-20px);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all 0.4s;
 }
 
-.linksFooter a{
-    color: #A67B5B;
-    font-size: 18px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: all 0.4s;
+.linksFooter ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+  padding-top: 20px;
 }
 
-.linksFooter a:hover{
-    color: white;
+.linksFooter a {
+  color: #a67b5b;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.4s;
 }
 
-.copyright{
-    padding: 4px;
-    text-align: center;
-    background: #A67B5B;
-    font-weight: 500;
-    color: white;
+.linksFooter a:hover {
+  color: white;
+}
+
+.copyright {
+  padding: 4px;
+  text-align: center;
+  background: #a67b5b;
+  font-weight: 500;
+  color: white;
 }
