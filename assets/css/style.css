@@ -36,7 +36,7 @@ header {
   align-items: center;
   gap: 3.5rem;
   list-style: none;
-  margin-right: 900px;
+  margin-left: 200px;
 }
 
 .listInicio li a {
@@ -109,4 +109,80 @@ header {
 hr {
   border: none;
   border-bottom: solid 2px #5f4735;
+}
+
+/*Estilizando SECTION*/
+
+.banner {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.850), rgba(0, 0, 0, 0.700)), url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.titleConteudo h1{
+  color: white;
+  font-size: 100px;
+  font-weight: 600;
+  word-spacing: 5px;
+}
+
+.hrConteudo{
+  border: none;
+  border-bottom: 2px solid #f3f3f3;
+  width: 1000px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.subtitleConteudo p{
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  word-spacing: 5px;
+  margin-top: 10px;
+  padding: 0px 50p;
+}
+
+.botao{
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.botao .botao1{
+  padding: 10px 25px;
+  background: #a67b5b;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition:all 0.4s;
+  padding: 17px 40px;
+  margin-right: 20px;
+}
+
+.botao .botao2{
+  border: 1px solid rgb(255, 255, 255);
+  background: transparent;
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.4s;
+  padding: 15px 40px;
+}
+
+.botao  a:hover{
+    border: 1PX solid #a06732;
+    background-color: #a06732;
+    padding: 20px 50px;
+    transition: all 0.4s;
 }
