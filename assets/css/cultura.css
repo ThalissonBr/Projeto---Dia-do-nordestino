@@ -1,0 +1,140 @@
+@import url(footer.css);
+@import url(style.css);
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    width: 10px;
+    background-color: #000000;
+  }
+  
+  /* Estilizando o MENU */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    background-color: #a67b5b;
+    padding: 0px 24px;
+  }
+  
+  .logoInicio img {
+    width: 110px;
+  }
+  
+  .listInicio ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    list-style: none;
+    margin-left: 200px;
+  }
+  
+  .listInicio li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.4s;
+  }
+  
+  .listInicio li a:hover {
+    color: white;
+    background-color: #a06732;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .pesquisar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .pesquisar input {
+    padding: 10px 20px;
+    background: #f3dbb2;
+    border-radius: 8px;
+    border: 0.5px solid #9b7550;
+    width: 18.5rem;
+    color: #96724e;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    transition: all 0.4s;
+  }
+  
+  .pesquisar input::placeholder {
+    color: #967452;
+  }
+  
+  .pesquisar input:hover {
+    border: 0.5px solid #88674e;
+  }
+  
+  .pesquisar input:focus {
+    padding: 12px;
+    background: #f3e5cc;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .icon ion-icon {
+    color: #ffffff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.4s;
+  }
+  
+  .icon ion-icon:hover {
+    color: white;
+    background-color: #a06732;
+    border-radius: 10px;
+    padding: 7px;
+  }
+
+  /*Estilizando a page cultura*/
+
+.cultura-conteudo {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cultura-conteudo div {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.cultura-conteudo h2 {
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.cultura-conteudo img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cultura-conteudo p {
+  font-size: 18px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
